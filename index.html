@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Transcript</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Tahoma,sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background:linear-gradient(to right,#fff,#fffde7,#fff);
+    overflow:hidden;
+}
+
+/* Watermark */
+body::before{
+    content:"Approved";
+    position:absolute;
+    font-size:240px;
+    color:rgba(255,80,50,.18);
+    font-weight:bold;
+    transform:rotate(-28deg);
+    user-select:none;
+    pointer-events:none;
+}
+
+/* Card */
+.card{
+    width:300px;
+    background:#fff;
+    border-radius:6px;
+    overflow:hidden;
+    box-shadow:0 10px 35px rgba(0,0,0,.45);
+    z-index:10;
+}
+
+.header{
+    background:#efeeb7;
+    text-align:center;
+    font-weight:bold;
+    padding:8px;
+    border-bottom:1px solid #3b5d9a;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th{
+    background:#efeeb7;
+    border:1px solid #3b5d9a;
+    padding:6px;
+    font-size:13px;
+}
+
+td{
+    border:1px solid #3b5d9a;
+    padding:8px;
+    text-align:center;
+    font-size:13px;
+}
+
+.left{
+    width:52%;
+}
+
+.right{
+    width:48%;
+}
+
+.label{
+    font-size:12px;
+    color:#333;
+}
+
+.value{
+    font-size:15px;
+    font-weight:500;
+    margin-top:2px;
+}
+
+.red{
+    color:#b50000;
+}
+
+.footer{
+    text-align:center;
+    padding:10px;
+    font-size:13px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="card">
+
+<div class="header">
+ใบรายงานผลการศึกษา/TRANSCRIPT
+</div>
+
+<table>
+
+<tr>
+<th class="left">รายการ/Items</th>
+<th class="right">ผลลัพธ์/Result</th>
+</tr>
+
+<tr>
+<td>
+<div class="label">เอกสารมีอยู่ในภาษา</div>
+<div class="label">Document Language</div>
+</td>
+<td>
+<div class="value">ไทย/Thai</div>
+</td>
+</tr>
+
+<tr>
+<td>
+<div class="label">ออกให้เมื่อ</div>
+<div class="label">Issued date</div>
+</td>
+<td>
+<div class="value">2024-03-07</div>
+</td>
+</tr>
+
+<tr>
+<td>
+<div class="label">รหัสนักศึกษา</div>
+<div class="label">Student ID</div>
+</td>
+<td>
+<div class="value">6-2-4-2-6-0-0-0-1-4</div>
+</td>
+</tr>
+
+<tr>
+<td>
+<div class="label">ชื่อ-สกุล</div>
+<div class="label">Student Name</div>
+</td>
+<td>
+<div class="value">นาย จักรพันธ์ ลูประมาน</div>
+</td>
+</tr>
+
+<tr>
+<td>
+<div class="label">วันเดือนปีเกิด</div>
+<div class="label">Birthdate</div>
+</td>
+<td>
+<div class="value">2001-02-XX</div>
+</td>
+</tr>
+
+<tr>
+<td>
+<div class="label">เลขบัตรประชาชน</div>
+<div class="label">ID Card</div>
+</td>
+<td>
+<div class="value">1279XXXXXX8928</div>
+</td>
+</tr>
+
+<tr>
+<td>
+<div class="label">หลักสูตร</div>
+<div class="label">Bachelor</div>
+</td>
+<td>
+<div class="value">วิศวกรรมศาสตรบัณฑิต</div>
+</td>
+</tr>
+
+<tr>
+<td>
+<div class="label">สาขาวิชา/โปรแกรมวิชา</div>
+<div class="label">Major</div>
+</td>
+<td>
+<div class="value red">วิศวกรรมไฟฟ้า</div>
+</td>
+</tr>
+
+<tr>
+<td>
+<div class="label">จำนวนหน่วยกิตที่ได้</div>
+<div class="label">Credit Pass</div>
+</td>
+<td>
+<div class="value">147</div>
+</td>
+</tr>
+
+<tr>
+<td>
+<div class="label">เกรดเฉลี่ย</div>
+<div class="label">GPA</div>
+</td>
+<td>
+<div class="value red">2.82</div>
+</td>
+</tr>
+
+<tr>
+<td>
+<div class="label">ออกจากมหาวิทยาลัย</div>
+<div class="label">Leave Date</div>
+</td>
+<td>
+<div class="value">2024-02-23</div>
+</td>
+</tr>
+
+<tr>
+<td>
+<div class="label">สถานภาพนักศึกษา</div>
+<div class="label">Student Status</div>
+</td>
+<td>
+<div class="value">สำเร็จการศึกษา</div>
+</td>
+</tr>
+
+<tr>
+<td>
+<div class="label">รหัสบาร์โค้ด</div>
+<div class="label">Barcode ID</div>
+</td>
+<td>
+<div class="value">100146642</div>
+</td>
+</tr>
+
+</table>
+
+</div>
+
+</body>
+</html>
